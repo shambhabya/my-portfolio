@@ -2,32 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* .main {
+    background: linear-gradient(to bottom,#ffffff 0% , rgb(53, 52, 52) 25%, black 50%,  rgb(51, 50, 50) 75%,#a8c9e6 100%);
+} */
+
+.main {
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.manrope{
+    font-family: var(--font-manrope);
+}
+.syncopate{
+    font-family: var(--font-syncopate);
+}
+
+@layer keyframes {
+    @keyframes wave-animation {
+        0% {
+            transform:rotate(0deg)
+        }
+        10% {
+            transform:rotate(20deg)
+        }
+        20% {
+            transform:rotate(-8deg)
+        }
+        30% {
+            transform:rotate(20deg)
+        }
+        40% {
+            transform:rotate(-4deg)
+        }
+        50% {
+            transform:rotate(14deg)
+        }
+        60% {
+            transform:rotate(0deg)
+        }
+        to {
+            transform:rotate(0deg)
+        }
+    }
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  .wave {
+    animation-name: wave-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display:inline-block
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+  
