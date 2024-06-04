@@ -2,14 +2,24 @@
 
 const Navbar = () => {
   return (
-    <nav className=" p-4 fixed w-full bg-slate-100 z-20">
-      <div className="container px-16">
+    <nav className="p-2  md:p-4 fixed w-full bg-slate-100 z-20">
+      <div className="container md:px-16">
         <ul className="flex  text-gray-500 space-x-6 justify-center">
-          <li className="hover:bg-slate-100"><a href="#shambhabya">Shambhabya Medhi</a></li>  
-          <li className="hover:bg-slate-100"><a href="#about">About Me</a></li>
-          <li className="hover:bg-slate-100"><a href="#resume">Resume</a></li>
-          <li className="hover:bg-slate-100"><a href="#experience">Experience</a></li>
-          <li className="hover:bg-slate-100"><a href="#projects">Projects</a></li>
+          <li className="hover:bg-slate-100">
+            <a href="#shambhabya">Shambhabya Medhi</a>
+          </li>
+          <li className="hover:bg-slate-100">
+            <a href="#about">About Me</a>
+          </li>
+          <li className="hover:bg-slate-100">
+            <a href="#resume">Resume</a>
+          </li>
+          <li className="hover:bg-slate-100">
+            <a href="#experience">Experience</a>
+          </li>
+          <li className="hover:bg-slate-100">
+            <a href="#projects">Projects</a>
+          </li>
         </ul>
 
         {/* <div className="text-gray-400 h-screen w-1/12 fixed left-0 top-0 pt-16">
@@ -50,8 +60,6 @@ const Navbar = () => {
       </div>
     </div> */}
       </div>
-
-      
     </nav>
   );
 };
