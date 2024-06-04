@@ -6,12 +6,13 @@ import { motion, useScroll, useTransform, useMotionValue } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
+import project2 from "@/public/project2.png";
 
 const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "React Commerce",
+    title: "Clubify - Social Network",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
     img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     link: "https://lama.dev",
@@ -75,9 +76,9 @@ const items = [
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Aniflix - Anime watching Website",
+    desc: "Netflix inspired streaming website for Anime. Built using MERN stack along with Admin Panel for managing content.",
+    img: project2,
     link: "https://lama.dev",
   },
   {
@@ -112,16 +113,18 @@ const PortfolioPage = () => {
               <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
               {items.map((item) => (
                 <div
-                  className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color} `}
+                  className={`h-screen w-screen  flex items-center justify-center bg-gradient-to-r ${item.color} `}
                   key={item.id}
                 >
-                  <div className="flex flex-col gap-4 text-white mt-4">
-                    <h1 className="text-lg font-bold md:text-2xl lg:text-3xl xl:text-4xl">
+                  <div className="flex flex-col gap-4 text-black bg-slate-100 shadow-md shadow-gray-300 mt-4  rounded-md p-4">
+                    <h1 className="text-lg font-bold md:text-xl lg:text-2xl xl:text-3xl">
                       {item.title}
                     </h1>
-                    <div className="relative w-64 h-48 md:w-96 md:h-64 lg:w-[400px] lg:h-[300px] xl:w-[500px] xl:h-[350px]">
+
+                    <div className="relative w-64 h-48 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[500px] xl:h-[350px] mx-auto">
                       <Image src={item.img} alt="" fill />
                     </div>
+
                     <Link href={item.link} className="flex justify-between">
                       <div className="flex gap-2">
                         {item.icons?.map((icon) => icon)}
@@ -145,7 +148,7 @@ const PortfolioPage = () => {
                         />
                       </div>
                     </Link>
-                    <p className="w-80 md:w-96 lg:w-[300px] lg:text-base xl:w-[400px]">
+                    <p className="w-80 md:w-96 text-sm lg:w-[300px] lg:text-base xl:w-[500px]">
                       {item.desc}
                     </p>
                   </div>
