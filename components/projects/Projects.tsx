@@ -67,8 +67,8 @@ const items = [
       <Image
         src="https://seeklogo.com/images/S/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png?v=638421451470000000"
         alt="shadcn"
-        width="25"
-        height="25"
+        width={25}
+        height={25}
       />,
     ],
   },
@@ -172,7 +172,9 @@ const PortfolioPage = () => {
 
                     <div className="flex justify-between">
                       <div className="flex gap-2">
-                        {item.icons?.map((icon,index) => icon)}
+                        {item.icons?.map((icon, index) => (
+                          <span key={index}>icon</span>
+                        ))}
                       </div>
                       <div className="flex gap-4">
                         <Link

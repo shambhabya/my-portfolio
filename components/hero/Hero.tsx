@@ -14,7 +14,7 @@ const Hero = () => {
             </span>
           </div>
           <div className="text-[5vmax] font-bold md:mb-2">
-            I'&apos'm <span className=" text-red-400">Shambhabya </span>
+            I&apos;m <span className=" text-red-400">Shambhabya </span>
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="text-3xl font-bold text-black mb-6 mt-6">About Me</h2>
           <div className=" text-base  text-gray-600">
             <p className="  mb-4 ">
-              Hey there! I'&apos'm Shambhabya Medhi, final year engineering
+              Hey there! I&apos;m Shambhabya Medhi, final year engineering
               student by day, and a full-stack developer by night.
             </p>
             <p className=" leading-relaxed mb-4">
@@ -35,15 +35,15 @@ const About = () => {
               full-stack applications from the ground up.
             </p>
             <p className="leading-relaxed mb-4">
-              When I'&apos'm not coding, you might find me buried in a good
+              When I&apos;m not coding, you might find me buried in a good
               fiction book or binge watching anime, or maybe brainstorming the
               next big thing with a cup of coffee in hand.
             </p>
 
             <p className="leading-relaxed mb-4">
-              So, if you'&apos're looking for a developer who'&apos's as
+              So, if you&apos;re looking for a developer who&apos;s as
               passionate about problem-solving as the latest tech trends, then
-              let'&apos's chat!
+              let&apos;s chat!
             </p>
           </div>
         </div>
