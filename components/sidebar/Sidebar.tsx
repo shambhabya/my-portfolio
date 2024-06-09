@@ -1,13 +1,14 @@
 // Sidebar.js
-import React from 'react';
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import Image from "next/image";
+import React from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
     <div className="bg-gray-800 text-white h-screen w-1/5 p-4 ">
       <div className="flex flex-col items-center mb-8">
         {/* Profile Photo */}
-        <img
+        <Image
           src="path/to/your/profile-photo.jpg"
           alt="Profile"
           className="rounded-full w-16 h-16 mr-4"

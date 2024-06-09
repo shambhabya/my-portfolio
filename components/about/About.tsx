@@ -17,8 +17,8 @@ const About = () => {
           <h2 className="text-3xl font-bold text-black mb-6 mt-6">About Me</h2>
           <div className=" text-base  text-gray-600">
             <p className="  mb-4 ">
-              Hey there! I'm Shambhabya Medhi, final year engineering student by
-              day, and a full-stack developer by night.
+              Hey there! I'&apos'm Shambhabya Medhi, final year engineering
+              student by day, and a full-stack developer by night.
             </p>
             <p className=" leading-relaxed mb-4">
               My interest in coding began in childhood when I created simple web
@@ -35,14 +35,15 @@ const About = () => {
               full-stack applications from the ground up.
             </p>
             <p className="leading-relaxed mb-4">
-              When I'm not coding, you might find me buried in a good fiction
-              book or binge watching anime, or maybe brainstorming the next big
-              thing with a cup of coffee in hand.
+              When I'&apos'm not coding, you might find me buried in a good
+              fiction book or binge watching anime, or maybe brainstorming the
+              next big thing with a cup of coffee in hand.
             </p>
 
             <p className="leading-relaxed mb-4">
-              So, if you're looking for a developer who's as passionate about
-              problem-solving as the latest tech trends, then let's chat!
+              So, if you'&apos're looking for a developer who'&apos's as
+              passionate about problem-solving as the latest tech trends, then
+              let'&apos's chat!
             </p>
           </div>
         </div>
@@ -106,7 +107,7 @@ const About = () => {
 
               <div className="rounded-lg bg-secondary/30 border border-secondary hover:shadow-md hover:bg-secondary/50 transition-all p-4 space-y-4">
                 <div className="text-sm flex flex-col items-center justify-center space-y-2 text-center h-full">
-                  <img
+                  <Image
                     src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"
                     alt="next-js"
                     width="50"
@@ -154,7 +155,7 @@ const About = () => {
 
               <div className="rounded-lg bg-secondary/30 border border-secondary hover:shadow-md hover:bg-secondary/50 transition-all p-4 space-y-4">
                 <div className="text-sm flex flex-col items-center justify-center space-y-2 text-center h-full">
-                  <img
+                  <Image
                     src="https://seeklogo.com/images/S/shadcn-ui-logo-EF735EC0E5-seeklogo.com.png?v=638421451470000000"
                     alt="shadcn"
                     width="50"
@@ -166,7 +167,7 @@ const About = () => {
               </div>
               <div className="rounded-lg bg-secondary/30 border border-secondary hover:shadow-md hover:bg-secondary/50 transition-all p-4 space-y-4">
                 <div className="text-sm flex flex-col items-center justify-center space-y-2 text-center h-full">
-                  <img
+                  <Image
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-plain.svg"
                     alt="appwrite"
                     width={50}
