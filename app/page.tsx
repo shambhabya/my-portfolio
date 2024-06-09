@@ -8,6 +8,12 @@ import Experience from "@/components/experience/Experience";
 import Projects from "@/components/projects/Projects";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
   return (
     <main style={{}} className="main ">
       <Navbar />
