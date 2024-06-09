@@ -10,7 +10,7 @@ import Faicon from "./Faicon";
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-gradient-to-b from-red-50 to-slate-100">
+    <div className="flex flex-col md:flex-row bg-gradient-to-b from-sky-100 to-slate-100">
       {/* Education column */}
       <div className=" md:w-1/2 flex flex-col pl-8  md:pl-24 pr-8 md:pr-0">
         <div className="mb-8">
@@ -162,6 +162,18 @@ const About = () => {
                   />
 
                   <p className="text-sm">ShadCn</p>
+                </div>
+              </div>
+              <div className="rounded-lg bg-secondary/30 border border-secondary hover:shadow-md hover:bg-secondary/50 transition-all p-4 space-y-4">
+                <div className="text-sm flex flex-col items-center justify-center space-y-2 text-center h-full">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-plain.svg"
+                    alt="appwrite"
+                    width={50}
+                    height={50}
+                  />
+
+                  <p className="text-sm">Appwrite</p>
                 </div>
               </div>
 

@@ -29,14 +29,14 @@ function Experience() {
                   </div>
                 </h3>
                 <p className="mt-2 text-sm leading-normal text-gray-700 group-hover:text-white">
-                  Build, style, and ship high-quality websites, design systems,
-                  mobile apps, and digital experiences for a diverse array of
-                  projects for clients including Harvard Business School,
-                  Everytown for Gun Safety, Pratt Institute, Koala Health,
-                  Vanderbilt University, The 19th News, and more. Provide
-                  leadership within engineering department through close
-                  collaboration, knowledge shares, and spearheading the
-                  development of internal tools.
+                  During my internship as a frontend developer, I utilized React
+                  to create responsive web applications and integrated data
+                  retrieval from external APIs using Axios, enhancing a
+                  badminton live score and data management website. I
+                  collaborated with backend developers, implemented modern UI/UX
+                  design principles, ensured cross-browser compatibility,
+                  leveraged Redux for state management, and participated in code
+                  reviews to maintain code quality.
                 </p>
                 <ul
                   className="mt-2 flex flex-wrap"
@@ -98,7 +98,7 @@ function Experience() {
             <div className="relative pb-1 group md:w-1/3 flex flex-col lg:flex-row sm:gap-8 md:gap-4 hover:!opacity-100 group-hover/list:opacity-50 ">
               <div className="absolute -inset-x-4 -inset-y-2 z-0  rounded-md transition motion-reduce:transition-none lg:-inset-x-6  block group-hover:bg-slate-800/50  group-hover:drop-shadow-2xl"></div>
               <header className="lg:w-1/3 z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 group-hover:text-slate-50">
-                June 2023 - September 2023
+                June 2022 - July 2022
               </header>
               <div className="z-10 flex-1">
                 <h3 className="font-medium leading-snug text-slate-200">
@@ -108,21 +108,18 @@ function Experience() {
                     </a>
                   </div>
                   <div>
-                    <div className="text-slate-500">UjuCode</div>
+                    <div className="text-slate-500">APDCL</div>
                   </div>
                   <div>
                     <div className="text-slate-500">Guwahati</div>
                   </div>
                 </h3>
                 <p className="mt-2 text-sm leading-normal text-gray-700 group-hover:text-white">
-                  Build, style, and ship high-quality websites, design systems,
-                  mobile apps, and digital experiences for a diverse array of
-                  projects for clients including Harvard Business School,
-                  Everytown for Gun Safety, Pratt Institute, Koala Health,
-                  Vanderbilt University, The 19th News, and more. Provide
-                  leadership within engineering department through close
-                  collaboration, knowledge shares, and spearheading the
-                  development of internal tools.
+                  During my internship, I created a Python script to analyze
+                  transformer and consumer data, which resulted in a 20%
+                  reduction in power wastage. Additionally, I developed a
+                  ReactJS web app that integrated the TomTom API for transformer
+                  mapping, increasing user engagement by 30%.
                 </p>
                 <ul
                   className="mt-2 flex flex-wrap"
@@ -146,7 +143,7 @@ function Experience() {
                   </li>
                   <li className="mr-1.5 mt-2">
                     <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                      Redux
+                      Python
                     </div>
                   </li>
                   {/* Repeat for other technologies */}
